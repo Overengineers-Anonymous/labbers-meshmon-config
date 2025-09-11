@@ -19,4 +19,4 @@ node_config:
   - node_id: dagger
     poll_rate: 10
     retry: 0
-    url: http://server-01.vulkcraft.xyz:8000
+    url: http://server-01.volkcraft.xyz:8000
