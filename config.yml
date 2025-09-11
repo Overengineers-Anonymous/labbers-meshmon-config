@@ -1,14 +1,14 @@
 network_id: test
 node_config:
-  - node_id: node1
+  - node_id: will
     poll_rate: 10
     retry: 0
-    url: http://node1:8000
-  - node_id: node2
+    url: http://hh70a6nnqcg.sn.mynetname.net:8000/
+  - node_id: ripple
     poll_rate: 10
     retry: 0
-    url: http://node2:8000
-  - node_id: node3
+    url: http://wan.ripplefcl.com:8000
+  - node_id: chkgay
     poll_rate: 10
     retry: 0
     url: http://node3:8000
