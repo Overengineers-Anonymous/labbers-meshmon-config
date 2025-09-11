@@ -4,5 +4,5 @@ node_config:
     url: http://node1:8000
   - node_id: node2
     url: http://node2:8000
-  - node_id: node3
-    url: http://node3:8000
+  # - node_id: node3
+  #   url: http://node3:8000
