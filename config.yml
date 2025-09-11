@@ -11,7 +11,7 @@ node_config:
   - node_id: chkgay
     poll_rate: 10
     retry: 0
-    url: http://chkpwd.com:8000
+    url: http://chkpwd:8000
   - node_id: lorcan_desktop
     poll_rate: 10
     retry: 0
