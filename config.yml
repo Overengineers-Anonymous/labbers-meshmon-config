@@ -1,8 +1,14 @@
 network_id: test
 node_config:
   - node_id: node1
+    poll_rate: 10
+    retry: 0
     url: http://node1:8000
   - node_id: node2
+    poll_rate: 10
+    retry: 0
     url: http://node2:8000
   - node_id: node3
+    poll_rate: 10
+    retry: 0
     url: http://node3:8000
