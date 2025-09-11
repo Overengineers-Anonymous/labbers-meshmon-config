@@ -12,3 +12,11 @@ node_config:
     poll_rate: 10
     retry: 0
     url: http://chkpwd.com:8000
+  - node_id: lorcan_desktop
+    poll_rate: 10
+    retry: 0
+    url: http://lorcan-desktop:8000
+  - node_id: dagger
+    poll_rate: 10
+    retry: 0
+    url: http://dagger:8000
