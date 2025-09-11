@@ -20,3 +20,7 @@ node_config:
     poll_rate: 10
     retry: 0
     url: http://server-01.volkcraft.xyz:8000
+  - node_id: seeg
+    poll_rate: 10
+    retry: 0
+    url: http://seeg:8000
