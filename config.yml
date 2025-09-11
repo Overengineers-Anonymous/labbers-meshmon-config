@@ -11,4 +11,4 @@ node_config:
   - node_id: chkgay
     poll_rate: 10
     retry: 0
-    url: http://node3:8000
+    url: http://chkpwd.com:8000
