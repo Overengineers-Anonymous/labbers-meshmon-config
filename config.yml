@@ -8,25 +8,3 @@ node_config:
     poll_rate: 10
     retry: 0
     url: http://wan.ripplefcl.com:8000
-  # - node_id: Thomson
-  #   poll_rate: 10
-  #   retry: 0
-  #   url: http://wan.ripplefcl.com:8000
-
-
-  # - node_id: chkgay
-  #   poll_rate: 10
-  #   retry: 0
-  #   url: http://chkpwd:8000
-  # - node_id: lorcan_desktop
-  #   poll_rate: 10
-  #   retry: 0
-  #   url: http://lorcan-desktop:8000
-  # - node_id: dagger
-  #   poll_rate: 10
-  #   retry: 0
-  #   url: http://server-01.volkcraft.xyz:8000
-  # - node_id: seeg
-  #   poll_rate: 10
-  #   retry: 0
-  #   url: http://seeg:8000
