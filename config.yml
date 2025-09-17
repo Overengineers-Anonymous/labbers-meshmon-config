@@ -8,3 +8,7 @@ node_config:
     poll_rate: 10
     retry: 0
     url: http://wan.ripplefcl.com:8000
+  - node_id: chkgay
+    poll_rate: 10
+    retry: 0
+    url: http://wan.ripplefcl.com:8000
