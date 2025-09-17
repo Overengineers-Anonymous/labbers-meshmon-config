@@ -12,3 +12,11 @@ node_config:
     poll_rate: 10
     retry: 3
     url: http://wan.ripplefcl.com:8000
+  - node_id: jens
+    poll_rate: 10
+    retry: 3
+    url: http://meshmon.jensens.eu:8000
+  - node_id: dagger
+    poll_rate: 10
+    retry: 3
+    url: http://server-01.hanrahan.cloud:8000
