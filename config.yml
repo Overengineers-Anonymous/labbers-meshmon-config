@@ -12,10 +12,18 @@ node_config:
     poll_rate: 10
     retry: 3
     url: http://wan.ripplefcl.com:8000
-  - node_id: jens
+  - node_id: jens-beryjuio-prod
     poll_rate: 10
     retry: 3
-    url: http://meshmon.jensens.eu:8000
+    url: https://meshmon.beryjuio-prod.k8s.beryju.io
+  - node_id: jens-beryjuio-home
+    poll_rate: 10
+    retry: 3
+    url: http://wan.ripplefcl.com:8000
+  - node_id: jens-beryjuio-oci
+    poll_rate: 10
+    retry: 3
+    url: https://meshmon.beryjuio-oci.k8s.beryju.io
   - node_id: dagger
     poll_rate: 10
     retry: 3
