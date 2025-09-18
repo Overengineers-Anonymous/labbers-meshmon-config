@@ -32,7 +32,7 @@ node_config:
     poll_rate: 10
     retry: 3
     url: https://meshmon.mcda.dev
-  # - node_id: thomson
-  #   poll_rate: 10
-  #   retry: 3
-  #   url: http://ripple.thomsonreuters.com:8000/
+  - node_id: thomson
+    poll_rate: 10
+    retry: 3
+    # url: http://ripple.thomsonreuters.com:8000/
