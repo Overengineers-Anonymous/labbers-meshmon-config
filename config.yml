@@ -8,10 +8,10 @@ node_config:
     poll_rate: 10
     retry: 3
     url: http://wan.ripplefcl.com:8000
-  - node_id: 🏠chkgay
-    poll_rate: 10
-    retry: 3
-    url: http://wan.ripplefcl.com:8000
+  # - node_id: 🏠chkgay
+  #   poll_rate: 10
+  #   retry: 3
+  #   url: http://wan.ripplefcl.com:8000
   - node_id: jens-beryjuio-prod
     poll_rate: 10
     retry: 3
@@ -24,10 +24,10 @@ node_config:
     poll_rate: 10
     retry: 3
     url: https://meshmon.beryjuio-oci.k8s.beryju.io
-  - node_id: dagger
-    poll_rate: 10
-    retry: 3
-    url: http://server-01.hanrahan.cloud:8000
+  # - node_id: dagger
+  #   poll_rate: 10
+  #   retry: 3
+  #   url: http://server-01.hanrahan.cloud:8000
   - node_id: will☁️
     poll_rate: 10
     retry: 3
