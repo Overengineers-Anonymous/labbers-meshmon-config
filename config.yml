@@ -7,7 +7,7 @@ node_config:
   - node_id: ripple
     poll_rate: 10
     retry: 3
-    url: http://wan.ripplefcl.com:8000
+    # url: http://wan.ripplefcl.com:8000
   # - node_id: 🏠chkgay
   #   poll_rate: 10
   #   retry: 3
@@ -19,7 +19,7 @@ node_config:
   - node_id: jens-beryjuio-home
     poll_rate: 10
     retry: 3
-    url: http://wan.ripplefcl.com:8000
+    # url: http://wan.ripplefcl.com:8000
   - node_id: jens-beryjuio-oci
     poll_rate: 10
     retry: 3
@@ -32,7 +32,7 @@ node_config:
     poll_rate: 10
     retry: 3
     url: https://meshmon.mcda.dev
-  - node_id: thomson
-    poll_rate: 10
-    retry: 3
-    url: http://ripple.thomsonreuters.com:8000/
+  # - node_id: thomson
+  #   poll_rate: 10
+  #   retry: 3
+  #   url: http://ripple.thomsonreuters.com:8000/
