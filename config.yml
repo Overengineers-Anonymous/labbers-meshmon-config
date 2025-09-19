@@ -1,38 +1,27 @@
 network_id: test
 node_config:
   - node_id: will
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
     url: http://hh70a6nnqcg.sn.mynetname.net:8000/
   - node_id: ripple
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
-    # url: http://wan.ripplefcl.com:8000
-  # - node_id: 🏠chkgay
-  #   poll_rate: 10
-  #   retry: 3
-  #   url: http://wan.ripplefcl.com:8000
   - node_id: jens-beryjuio-prod
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
     url: https://meshmon.beryjuio-prod.k8s.beryju.io
   - node_id: jens-beryjuio-home
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
-    # url: http://wan.ripplefcl.com:8000
   - node_id: jens-beryjuio-oci
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
     url: https://meshmon.beryjuio-oci.k8s.beryju.io
-  # - node_id: dagger
-  #   poll_rate: 10
-  #   retry: 3
-  #   url: http://server-01.hanrahan.cloud:8000
   - node_id: will☁️
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
     url: https://meshmon.mcda.dev
   - node_id: thomson
-    poll_rate: 10
+    poll_rate: 60
     retry: 3
-    # url: http://ripple.thomsonreuters.com:8000/
