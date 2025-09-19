@@ -3,6 +3,9 @@ node_config:
   - node_id: ripple
     poll_rate: 60
     retry: 3
+  - node_id: thomson
+    poll_rate: 60
+    retry: 3
   - node_id: jens-beryjuio-prod
     poll_rate: 60
     retry: 3
@@ -14,17 +17,14 @@ node_config:
     poll_rate: 60
     retry: 3
     url: https://meshmon.beryjuio-oci.k8s.beryju.io
-  - node_id: thomson
-    poll_rate: 60
-    retry: 3
-  - node_id: will☁️
+  - node_id: will-lab-ovh
     poll_rate: 60
     retry: 3
     url: https://meshmon.mcda.dev
-  - node_id: will🏠
+  - node_id: will-lab-home
     poll_rate: 60
     retry: 3
     url: http://hh70a6nnqcg.sn.mynetname.net:8000
-  - node_id: will📡
+  - node_id: will-lab-lte
     poll_rate: 60
     retry: 3
