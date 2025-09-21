@@ -28,3 +28,7 @@ node_config:
   - node_id: will-lab-lte
     poll_rate: 60
     retry: 3
+
+node_version:
+  - ">=2.1.0"
+  - "<3.0.0"
