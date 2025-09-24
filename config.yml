@@ -3,6 +3,7 @@ node_config:
   - node_id: ripple
     poll_rate: 60
     retry: 3
+    url: https://meshmon.ripplefcl.com
   - node_id: thomson
     poll_rate: 60
     retry: 3
