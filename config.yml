@@ -1,34 +1,34 @@
 network_id: test
 node_config:
   - node_id: ripple
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
     url: https://meshmon.ripplefcl.com
   - node_id: thomson
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
   - node_id: jens-beryjuio-prod
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
     url: https://meshmon.beryjuio-prod.k8s.beryju.io
   - node_id: jens-beryjuio-home
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
   - node_id: jens-beryjuio-oci
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
     url: https://meshmon.beryjuio-oci.k8s.beryju.io
   - node_id: will-lab-ovh
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
     url: https://meshmon.mcda.dev
   - node_id: will-lab-home
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
     url: http://wan0.mcda.dev:8000
   - node_id: will-lab-lte
-    poll_rate: 60
-    retry: 3
+    poll_rate: 30
+    retry: 2
 
 node_version:
   - ">=3.0.0"
