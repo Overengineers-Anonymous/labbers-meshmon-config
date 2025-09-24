@@ -24,7 +24,7 @@ node_config:
   - node_id: will-lab-home
     poll_rate: 60
     retry: 3
-    url: http://hh70a6nnqcg.sn.mynetname.net:8000
+    url: http://wan0.mcda.dev:8000
   - node_id: will-lab-lte
     poll_rate: 60
     retry: 3
