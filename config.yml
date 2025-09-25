@@ -1,4 +1,4 @@
-network_id: overengineers-annonymous
+network_id: overengineers-anonymous
 node_config:
   - node_id: ripple
     poll_rate: 30
