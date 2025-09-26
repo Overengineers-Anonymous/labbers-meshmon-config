@@ -1,5 +1,9 @@
 network_id: overengineers-anonymous
 node_config:
+  - node_id: chkpwd
+    poll_rate: 30
+    retry: 2
+    url: https://meshmon.chkpwd.com
   - node_id: ripple
     poll_rate: 30
     retry: 2
