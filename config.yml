@@ -3,6 +3,9 @@ node_config:
   # - node_id: chkpwd
   #   url: https://meshmon.chkpwd.com
   - node_id: ripple
+    rebroadcast:
+      - src_net: home-local
+        prefix: "rhl-"
   # - node_id: thomson
 #   - node_id: jens-beryjuio-prod
 #
