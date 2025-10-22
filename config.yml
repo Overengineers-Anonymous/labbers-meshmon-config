@@ -1,35 +1,20 @@
 network_id: overengineers-anonymous
 node_config:
-  - node_id: chkpwd
-    poll_rate: 30
-    retry: 2
-    url: https://meshmon.chkpwd.com
+  # - node_id: chkpwd
+  #   url: https://meshmon.chkpwd.com
   - node_id: ripple
-    poll_rate: 30
-    retry: 2
-  - node_id: thomson
-    poll_rate: 30
-    retry: 2
-  - node_id: jens-beryjuio-prod
-    poll_rate: 30
-    retry: 2
-    url: https://meshmon.beryjuio-prod.k8s.beryju.io
-  - node_id: jens-beryjuio-home
-    poll_rate: 30
-    retry: 2
-  - node_id: jens-beryjuio-oci
-    poll_rate: 30
-    retry: 2
-    url: https://meshmon.beryjuio-oci.k8s.beryju.io
-  - node_id: will-lab-ovh
-    poll_rate: 30
-    retry: 2
-    url: http://51.195.226.54:8000
+  # - node_id: thomson
+#   - node_id: jens-beryjuio-prod
+#
+#     url: https://meshmon.beryjuio-prod.k8s.beryju.io
+#   - node_id: jens-beryjuio-home
+#   - node_id: jens-beryjuio-oci
+#     url: https://meshmon.beryjuio-oci.k8s.beryju.io
+#   - node_id: will-lab-ovh
+#     url: http://51.195.226.54:8000
   - node_id: will-lab-home
-    poll_rate: 30
-    retry: 2
-    url: https://meshmon.mcda.dev
+    url: grpcs://meshmon.mcda.dev
 
 node_version:
-  - ">=3.0.0"
-  - "<4.0.0"
+  - ">=4.0.0"
+  - "<5.0.0"
