@@ -17,7 +17,7 @@ node_config:
 #   - node_id: will-lab-ovh
 #     url: http://51.195.226.54:8000
   - node_id: will-lab-home
-    url: grpcs://meshmon.mcda.dev
+    url: grpcs://meshmon.mcda.dev:443
 
 node_version:
   - ">=3.0.0"
