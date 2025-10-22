@@ -3,7 +3,7 @@ node_config:
   # - node_id: chkpwd
   #   url: https://meshmon.chkpwd.com
   - node_id: ripple
-    url: grpcs://mesh.ripplefcl.com:42069
+    url: grpcs://mesh.ripplefcl.com:443
     rebroadcast:
       - src_net: home-local
         prefix: "rhl-"
