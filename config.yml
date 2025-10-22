@@ -16,5 +16,5 @@ node_config:
     url: grpcs://meshmon.mcda.dev
 
 node_version:
-  - ">=4.0.0"
+  - ">=3.0.0"
   - "<5.0.0"
