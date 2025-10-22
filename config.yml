@@ -13,8 +13,8 @@ node_config:
   - node_id: jens-beryjuio-home
   - node_id: jens-beryjuio-oci
     url: grpcs://meshmon-grpc.beryjuio-oci.k8s.beryju.io
-#   - node_id: will-lab-ovh
-#     url: http://51.195.226.54:8000
+  - node_id: will-lab-ovh
+    url: grpc://51.195.226.54:42069
   - node_id: will-lab-home
     url: grpcs://meshmon.mcda.dev:443
 
