@@ -7,7 +7,7 @@ node_config:
     rebroadcast:
       - src_net: home-local
         prefix: "rhl-"
-  # - node_id: thomson
+  - node_id: thomson
   - node_id: jens-beryjuio-prod
     url: grpcs://meshmon-grpc.beryjuio-prod.k8s.beryju.io
   - node_id: jens-beryjuio-home
