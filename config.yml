@@ -19,6 +19,7 @@ rebroadcasts:
   - src_net: home-local
     apply_to:
       - ripple
+    group_prefix: ripple-
 
 node_version:
   - ">=4.0.0-beta.7"
