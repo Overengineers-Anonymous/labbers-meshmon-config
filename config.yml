@@ -16,9 +16,9 @@ node_config:
     url: grpcs://meshmon.mcda.dev:443
 
 rebroadcasts:
-    - src_net: home-local
-      apply_to:
-        - ripple
+  - src_net: home-local
+    apply_to:
+      - ripple
 
 node_version:
   - ">=4.0.0-beta.7"
