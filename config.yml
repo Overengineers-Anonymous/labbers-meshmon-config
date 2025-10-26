@@ -32,7 +32,7 @@ rebroadcasts:
 cluster:
   rate_limits:
     update: 10
-    priority_update: 2
+    priority_update: 10
   clock_pulse_interval: 20
   avg_clock_pulses: 5
 
