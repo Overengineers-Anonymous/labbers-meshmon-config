@@ -33,7 +33,7 @@ cluster:
   rate_limits:
     update: 10
     priority_update: 10
-  clock_pulse_interval: 20
+  clock_pulse_interval: 60
   avg_clock_pulses: 5
 
 node_version:
