@@ -3,8 +3,10 @@ node_config:
   - node_id: chkpwd
   - node_id: thomson
   - node_id: jens-beryjuio-home
-  - node_id: ripple
-    url: grpcs://mesh.ripplefcl.com:443
+  - node_id: ripple-01
+    url: grpcs://mesh-01.ripplefcl.com:443
+  - node_id: ripple-02
+    url: grpcs://mesh-02.ripplefcl.com:443
   - node_id: vt153-home
     url: grpc://mm.mayonline.co.uk:42069
   - node_id: jens-beryjuio-prod
