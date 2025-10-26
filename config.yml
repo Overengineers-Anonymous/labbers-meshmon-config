@@ -21,25 +21,14 @@ node_config:
 rebroadcasts:
   - src_net: home-local
     apply_to:
-      - ripple
+      - ripple-01
+      - ripple-02
     group_prefix: ripple-
   - src_net: local
     apply_to:
       - will-lab-home
     group_prefix: mcda-
-node_version:
-  - ">=4.0.0-beta.7"
-  - "<5.0.0"
-
-rebroadcasts:
-  - src_net: home-local
-    apply_to:
-      - ripple
-    group_prefix: ripple-
-  - src_net: local
-    apply_to:
-      - will-lab-home
-    group_prefix: mcda-
+    
 node_version:
   - ">=4.0.0-beta.7"
   - "<5.0.0"
