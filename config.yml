@@ -1,14 +1,14 @@
 network_id: overengineers-anonymous
 node_config:
   - node_id: chkpwd
+  - node_id: thomson
+  - node_id: jens-beryjuio-home
   - node_id: ripple
     url: grpcs://mesh.ripplefcl.com:443
   - node_id: vt153-home
     url: grpc://mm.mayonline.co.uk:42069
-  - node_id: thomson
   - node_id: jens-beryjuio-prod
     url: grpcs://meshmon-grpc.beryjuio-prod.k8s.beryju.io
-  - node_id: jens-beryjuio-home
   - node_id: jens-beryjuio-oci
     url: grpcs://meshmon-grpc.beryjuio-oci.k8s.beryju.io
   - node_id: will-lab-ovh
