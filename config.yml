@@ -2,7 +2,7 @@ network_id: overengineers-anonymous
 node_config:
   - node_id: chkpwd
   - node_id: thomson
-  - node_id: jens-beryjuio-home
+  # - node_id: jens-beryjuio-home
   - node_id: ripple
     url: grpcs://mesh.ripplefcl.com:443
   - node_id: vt153-home
