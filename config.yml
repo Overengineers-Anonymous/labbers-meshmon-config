@@ -25,8 +25,8 @@ rebroadcasts:
       - ripple-02
     group_prefix: ripple-
   - src_net: local
-    apply_to: []
-      # - will-lab-home
+    apply_to: 
+      - will-lab-home
     group_prefix: mcda-
 
 cluster:
