@@ -30,8 +30,8 @@ rebroadcasts:
     group_prefix: mcda-
 
 defaults:
-  node:
-    interval: 30
+  nodes:
+    poll_rate: 30
     retry: 8
 
 cluster:
